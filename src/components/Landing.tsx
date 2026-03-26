@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const features = [
   {
@@ -51,7 +52,8 @@ export default function Landing() {
         <div className="absolute inset-0 bg-gradient-to-b from-brand-950 via-brand-950/90 to-brand-900" />
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-28 sm:py-36">
-          <div className="max-w-3xl">
+          <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
+          <div className="max-w-3xl lg:max-w-none lg:flex-1">
             <div className="inline-flex items-center gap-2 bg-brand-800/60 border border-brand-700/40 rounded-full px-4 py-1.5 text-sm text-brand-200 mb-8">
               <span className="w-2 h-2 rounded-full bg-gold-400 animate-pulse" />
               B2B Χονδρική Πώληση
@@ -80,6 +82,19 @@ export default function Landing() {
                 Ζητήστε Προσφορά
               </Link>
             </div>
+          </div>
+
+          {/* Logo on the right */}
+          <div className="hidden lg:flex items-center justify-center flex-1">
+            <Image
+              src="/images/logo.png"
+              alt="Katranis Accessories"
+              width={600}
+              height={180}
+              className="w-full max-w-[500px] h-auto drop-shadow-2xl"
+              priority
+            />
+          </div>
           </div>
         </div>
 
