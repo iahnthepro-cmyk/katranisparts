@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "name": "Premium Floor Mats",
+    "category": "Floor Protection",
+    "price": "$199",
+    "image": "/images/mats.jpg"
+  },
+  {
+    "id": "2",
+    "name": "LED Work Lights",
+    "category": "Lighting",
+    "price": "$89",
+    "image": "/images/lights.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Heavy-Duty Battery",
+    "category": "Electrical",
+    "price": "$149",
+    "image": "/images/battery.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Oil Filter Set",
+    "category": "Maintenance",
+    "price": "$45",
+    "image": "/images/filters.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Car Cover Premium",
+    "category": "Protection",
+    "price": "$129",
+    "image": "/images/cover.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Seat Covers Leather",
+    "category": "Interior",
+    "price": "$249",
+    "image": "/images/seats.jpg"
+  }
+]
