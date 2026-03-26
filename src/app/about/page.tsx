@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Σχετικά με Εμάς",
-  description: "Μάθετε για την Katranis Parts — τον αξιόπιστο B2B προμηθευτή αξεσουάρ αυτοκινήτων και ειδών πρατηρίων στις Αχαρνές.",
+  description: "Μάθετε για την Katranis Accessories — τον αξιόπιστο B2B προμηθευτή αξεσουάρ αυτοκινήτων και ειδών πρατηρίων στις Αχαρνές.",
 };
 
 export default function AboutPage() {
@@ -25,7 +25,7 @@ export default function AboutPage() {
           <div className="space-y-6">
             <h2 className="text-2xl font-bold text-gray-900">Η Ιστορία μας</h2>
             <p className="text-gray-600 leading-relaxed">
-              Η Katranis Parts είναι ένας αφοσιωμένος B2B προμηθευτής premium αξεσουάρ
+              Η Katranis Accessories είναι ένας αφοσιωμένος B2B προμηθευτής premium αξεσουάρ
               αυτοκινήτων και ειδών πρατηρίων. Με έδρα τις Αχαρνές, εξυπηρετούμε
               επιχειρήσεις σε όλη την Ελλάδα με ποιοτικά προϊόντα, ανταγωνιστικές
               χονδρικές τιμές και αξιόπιστη εξυπηρέτηση.
@@ -86,7 +86,7 @@ export default function AboutPage() {
             {/* Map embed */}
             <div className="rounded-2xl overflow-hidden shadow-sm border border-gray-100">
               <iframe
-                title="Katranis Parts Location"
+                title="Katranis Accessories Location"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3142.5!2d23.73!3d38.08!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sMolas%208%2C%20Acharnai!5e0!3m2!1sen!2sgr"
                 width="100%"
                 height="250"

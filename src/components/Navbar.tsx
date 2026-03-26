@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 
@@ -19,13 +20,15 @@ export default function Navbar() {
     <nav className="bg-brand-950/95 backdrop-blur-md text-white sticky top-0 z-50 border-b border-brand-800/50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <Link href="/" className="flex items-center gap-2 group">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-brand-400 to-brand-600 flex items-center justify-center font-black text-sm text-white shadow-md">
-              K
-            </div>
-            <span className="text-xl font-bold tracking-tight">
-              Katranis<span className="text-gold-400">Parts</span>
-            </span>
+          <Link href="/" className="flex items-center group">
+            <Image
+              src="/images/logo.png"
+              alt="Katranis Accessories"
+              width={160}
+              height={48}
+              className="h-10 w-auto"
+              priority
+            />
           </Link>
 
           {/* Desktop nav */}

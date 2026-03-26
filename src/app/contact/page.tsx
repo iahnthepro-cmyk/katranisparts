@@ -3,7 +3,7 @@ import ContactForm from "../../components/ContactForm";
 
 export const metadata: Metadata = {
   title: "Επικοινωνία",
-  description: "Επικοινωνήστε με την Katranis Parts. Ζητήστε προσφορά ή ρωτήστε για τα B2B αξεσουάρ αυτοκινήτων και τα είδη μας.",
+  description: "Επικοινωνήστε με την Katranis Accessories. Ζητήστε προσφορά ή ρωτήστε για τα B2B αξεσουάρ αυτοκινήτων και τα είδη μας.",
 };
 
 export default function ContactPage() {

@@ -5,14 +5,14 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: "Katranis Parts - Αξεσουάρ Αυτοκινήτων & Είδη Πρατηρίων B2B",
-    template: "%s | Katranis Parts",
+    default: "Katranis Accessories - Αξεσουάρ Αυτοκινήτων & Είδη Πρατηρίων B2B",
+    template: "%s | Katranis Accessories",
   },
   description:
     "Επαγγελματικός κατάλογος B2B για αξεσουάρ αυτοκινήτων, είδη πρατηρίων και ανταλλακτικά. Ποιοτικά προϊόντα σε χονδρικές τιμές.",
   keywords: ["αξεσουάρ αυτοκινήτων", "B2B", "ανταλλακτικά", "είδη πρατηρίων", "χονδρική"],
   openGraph: {
-    title: "Katranis Parts - Αξεσουάρ Αυτοκινήτων & Είδη Πρατηρίων B2B",
+    title: "Katranis Accessories - Αξεσουάρ Αυτοκινήτων & Είδη Πρατηρίων B2B",
     description:
       "Επαγγελματικός κατάλογος B2B για αξεσουάρ αυτοκινήτων, είδη πρατηρίων και ανταλλακτικά.",
     type: "website",

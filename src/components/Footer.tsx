@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -7,13 +8,14 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {/* Brand */}
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-brand-400 to-brand-600 flex items-center justify-center font-black text-sm text-white">
-                K
-              </div>
-              <span className="text-white text-xl font-bold">
-                Katranis<span className="text-gold-400">Parts</span>
-              </span>
+            <div className="mb-4">
+              <Image
+                src="/images/logo.png"
+                alt="Katranis Accessories"
+                width={160}
+                height={48}
+                className="h-10 w-auto"
+              />
             </div>
             <p className="text-sm leading-relaxed text-gray-500">
               Ο αξιόπιστος B2B συνεργάτης σας για premium αξεσουάρ αυτοκινήτων
@@ -73,7 +75,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-brand-900/80 mt-12 pt-8 flex flex-col sm:flex-row justify-between items-center gap-3 text-xs text-gray-600">
-          <p>&copy; {new Date().getFullYear()} Katranis Parts. Με επιφύλαξη παντός δικαιώματος.</p>
+          <p>&copy; {new Date().getFullYear()} Katranis Accessories. Με επιφύλαξη παντός δικαιώματος.</p>
           <p>Σχεδιασμένο στην Ελλάδα</p>
         </div>
       </div>
